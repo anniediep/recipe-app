@@ -1,0 +1,23 @@
+ {
+  "name": "recipeapp",
+  "version": "1.0.0",
+  "description": "the traditional way to keep recipes but digitally transformed",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anniediep/recipe-app.git"
+  },
+  "author": "Annie Diep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anniediep/recipe-app/issues"
+  },
+  "homepage": "https://github.com/anniediep/recipe-app#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
