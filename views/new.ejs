@@ -1,13 +1,20 @@
 <% include partials/header %>
 
-<h1>Add a New Recipe</h1>
+<div class="container">
+	<h1>Add a New Recipe</h1>
 
-<form action="/recipes" method="POST">
-	<input type="text" name="name" placeholder="Recipe Name">
-	<input type="text" name="image" placeholder="Image URL">
-	<button>Add Recipe</button>
-</form>
+	<div class="row">
+		<form action="/recipes" method="POST">
+			<div class="col-md-4 mx-auto max-width">
+				<input type="text" name="name" placeholder="Recipe Name">
+				<input type="text" name="image" placeholder="Image URL">
+				<button class="btn btn-primary">Add Recipe</button>
+			</div>
+		</form>
+	</div>
 
-<a href="/recipes">Go Back</a>
+	<a class="btn btn-light" href="/recipes">Go Back</a>
+</div>
+
 
 <% include partials/footer %>
