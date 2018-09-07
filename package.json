@@ -1,4 +1,4 @@
- {
+{
   "name": "recipeapp",
   "version": "1.0.0",
   "description": "the traditional way to keep recipes but digitally transformed",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/anniediep/recipe-app#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3"
   }

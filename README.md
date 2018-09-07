@@ -15,3 +15,15 @@ Full Recipe has:
 * Rating
 * Comments
 * Servings
+* Catagory
+
+-----------------------
+The Breakdown:
+* Landing Page  	GET: 	/
+* Recipe Page 		GET: 	/recipe
+* Partials
+* Bootstrap
+* Create recipe 	POST:  	/recipe
+* New Recipe 		GET: 	/recipe/new
+* Styling
+* Add DB

@@ -1,10 +1,27 @@
-<h1>Recipe Page!</h1>
+<% include partials/header %>
+<div class="container">
 
-<p>Below are your curated recipes</p>
+	<header class="jumbotron">
+		<h1>Welcome to the Recipe App</h1>
+		<p>Below are your curated recipes</p>
+		<p>
+			<a href="/recipes/new">Add a New Recipe</a>
+		</p>
+	</header>
 
-<% recipes.forEach(function(recipe){ %>
-	 <div>
-	 	<h4><%= recipe.name %></h4>
-	 	<img src="<%= recipe.image %>">
-	 </div>
-<%}); %>
+	<div class="row">
+		<% recipes.forEach(function(recipe){ %>
+			<div class="col-md-3 col-sm-6">
+				<div class="img-thumbnail">
+					<img class="img-fluid" src="<%= recipe.image %>">
+					<div class="caption">
+					 	<h5><%= recipe.name %></h5>
+					 </div>
+				</div>
+			</div>
+		<%}); %>
+	</div>
+
+</div>
+
+<% include partials/footer %>
